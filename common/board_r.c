@@ -550,7 +550,7 @@ static int initr_env_nowhere(void)
 		ENV_MEM_LAYOUT_SETTINGS1
 #endif
 #ifdef RKIMG_DET_BOOTDEV
-		RKIMG_DET_BOOTDEV
+		//RKIMG_DET_BOOTDEV
 #endif
 	};
 
