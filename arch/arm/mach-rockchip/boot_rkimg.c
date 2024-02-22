@@ -233,7 +233,7 @@ static int get_bootdev_type(void)
 				 "androidboot.mode=normal",
 				 boot_media, boot_media);
 #endif
-		env_update("bootargs", boot_options);
+		//env_update("bootargs", boot_options);
 	}
 
 	return type;
